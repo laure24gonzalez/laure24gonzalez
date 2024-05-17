@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Complatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, install-scale=1.0" />
+<div class="GLP">
+<title>GLP</title>
+</div>
+<link rel="icon" type="png" href="logo.png"> <!--imagen de fondo-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto+Mono:ital,wght@1,300&family=Sansita:ital@1&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@300&family=Sansita:ital@1&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css"> <!--conecta con el archivo style.css-->
+
+</head>
+<body>
+<script src="index.js"></script><!--conecta con el archivo index.js-->
+<div class="rectangulo">
+<h2>G L P</h2>
+
+<!--botones-->
+<button id="cambiarFondo">tema</button>
+
+<button onclick="openmodal4()" id="Curriculum">Curriculum vitae</button>
+
+<dialog class="modal4" id="modal4">
+    <img src="curriculum-vitae.png" class="curriculum" alt="curriculum">
+    <button onclick="closemodal4()">X</button>
+</dialog>
+
+
+
+<button onclick="openModal()" id="openmodal">Acerca de</button>
+
+<dialog class="modal" id="modal">
+    <h2>Acerca de esta pagina</h2>
+    <p>esta pagina trata sobre mi informacion personal como tambien futuros
+         proyectos que el publico va a poder descargar y poder modificar</p>
+        
+    <button onclick="closeModal()">X</button>
+</dialog> <!--boton con funcion-->
+
+
+<button onclick="openModal2()" id="Contacto">Contacto</button>
+
+<dialog class="modal2" id="modal2">
+    <h2>Hola</h2>
+    <p>contacto laure</p>
+    <button onclick="closeModal2()">X </button>
+</dialog>
+
+<button onclick="openModal3()" id="proyectos">Proyectos</button>
+<dialog class="modal3" id="modal3">
+    <h2>mis proyectos</h2>
+    <p>total de proyectos 0</p>
+    <button onclick="closeModal3()">X</button>
+</dialog>
+
+
+
+<div class="iconos">
+<a href="https://www.instagram.com/lau24gonzalez/">
+<img src="image.png" class="ig" alt="ig">
+</a>
+
+<a href="http://www.facebook.com">
+<img src="face.png" class="facebook" alt="facebook">
+</a>
+</div>
+
+</div> <!--el div es rectangulo-->
+
+<img src="yo.png" class="yo" alt="yo"><!--imagen de laureano-->
+
+<div class="conte1">
+<h1>Gonzalez Laureano</h1>
+<h3>P R O G R A M A C I O N</h3>
+<h5>©2023 creado por Gonzalez Laureano</h5>
+
+<h4 onclick="openModal5()" id="pyp">Politica de privacidad</h4>
+<dialog class="modal5" id="modal5">
+    <p>Política de privacidad
+        La política de privacidad es una declaración que divulga una parte o la totalidad de las prácticas de recopilación, uso, divulgación y gestión de datos de los usuarios y clientes de un sitio web. Cumple con el requisito legal de proteger la privacidad de un usuario o cliente.
+        Cada país se rige por sus propias leyes, con diferentes requisitos en cada jurisdicción respecto al uso de políticas de privacidad. Asegúrate de cumplir con la legislación aplicable a tus actividades y ubicación.
+        En general, ¿qué debe incluir una política de privacidad?
+        ¿Qué tipo de información recopilas?
+        ¿Cómo recopilas la información?
+        ¿Por qué recopilas esa información personal?
+        ¿Cómo almacenas, utilizas, compartes y divulgas la información personal de los visitantes de tu sitio web?
+        ¿Qué comunicación tienes con los visitantes de tu sitio web (en caso de tenerla)?
+        ¿Tu servicio se dirige a menores y recopila información sobre ellos?
+        Actualizaciones de la política de privacidad
+        Información de contacto
+        Puedes consultar este artículo del Centro de Ayuda para recibir más información sobre cómo elaborar una política de privacidad.
+        Las explicaciones e información que se brindan aquí son solo explicaciones, información y ejemplos generales. No debes considerar este artículo como asesoramiento legal ni como recomendación sobre lo que realmente debes hacer. Te recomendamos que busques asesoría legal para entender y elaborar tu política de privacidad.</p>
+
+        <button onclick="closemodal5()">X</button>
+
+    </dialog>
+
+</select>
+</div>
+
+
+</body>
+</html>

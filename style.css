@@ -1,0 +1,258 @@
+body{/*edicion de el cuerpo de la pagina, fondo y letra*/
+    margin: 0;
+    padding: 0;
+    background: url(cyber3.png); 
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-image: url('cyber3.png'); /* Imagen de fondo inicial */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+}  
+
+    .ig{
+        width: 25px;
+        display: inline-block;
+    }
+    .facebook{
+        margin-left: 10px;
+        width: 25px;
+        display: inline-block;
+    }
+    h1{
+        font-family: 'Roboto', sans-serif;
+        margin-left: 170px;
+        margin-top: 50px;
+        font-size: 50px;
+        color:#ffffff
+        
+        
+    }
+    .acerca{
+        font-family: 'Poiret One', cursive;
+        position: absolute;
+        margin-left: 400px;
+        margin-top: -45px;
+        font-size: 25px;
+        display: inline-block;
+        color:#ffffff
+    }
+    .contacto{
+        font-family: 'Poiret One', cursive;
+        position: absolute;
+        margin-left: 800px;
+        margin-top: -45px;
+        font-size: 25px;
+        display: inline-block;
+        color:#ffffff 
+    }
+    .proyectos{
+        font-family: 'Poiret One', cursive;
+        position: absolute;
+        margin-left: 600px;
+        margin-top: -45px;
+        font-size: 25px;
+        display: inline-block;
+        color:#ffffff
+    }
+    h3{
+        font-family: 'Poiret One', cursive;
+        margin-left: 175px;
+        margin-top: 0px;
+        font-size: 25px;
+        color:#ffffff
+    }
+    h2{
+        font-family: 'Poiret One', 'cursive';
+        margin-left: 20px;
+        margin-top: 10px;
+        display: inline-block;
+        margin-right: 200px;
+        color:#ffffff;
+    }
+    .acerca{
+        font-family: 'Poiret One', 'cursive';
+        margin-left: 120px;
+        margin-top: 0px;
+        color:#ffffff;
+    }
+    h4{
+        font-family:'Poiret One';
+        margin-top: -38px;
+        margin-left: 86%;
+        color:#ffffff;
+    }
+    h5{
+        font-family:'Poiret One';
+        margin-top: 200px;
+        margin-left: 10px;
+        color: #ffffff;
+    }
+    .yo{/*edicion de imagen de laureano*/
+        border-radius: 50%;
+        margin-top: 70px;
+        margin-left: 150px;
+        width: 150px;
+    }
+
+    p{
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+    }
+    button{
+        cursor: pointer; /* Cambiar el cursor a una mano cuando se pasa el mouse */
+        border-radius:5px; /* Borde redondeado de 5 píxeles */
+        padding: 10px 20px; /* Ajusta el relleno (padding) para cambiar el tamaño */
+        font-size: 16px; /* Cambia el tamaño de la fuente */
+        box-shadow: 1px 1px 3px 3px rgba(255, 0, 0, 0); /* Sombra suave al hacer clic */
+        background-color: #1f1f1f00; /* Cambia el color de fondo transparente */
+        color: #fff; /* Cambia el color de texto a blanco */
+        border: none;
+        border-bottom: 2px solid transparent; /* Borde inferior de 2 píxeles con color transparente */
+        transition: box-shadow 1s ease;/* Agrega una transición para cambiar el color del borde al pasar el mouse */ 
+        margin-left: 4%; /*mueve los botones centrandolos*/
+        
+    }
+    button:hover{
+        box-shadow: 1px 1px 3px 3px #474747;
+      }
+    .rectangulo{
+        width: 100%;
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.493);
+    }
+    .iconos{
+        position: absolute;
+        margin-top: -40px;
+        margin-left: 90%;
+    }
+
+
+    .modal::backdrop {
+        background-color: rgba(0, 0, 0, 0.5);/*fondo oscuro que se activa al abrir un modal*/
+        border-radius: 5px;
+    }
+    .modal2::backdrop {
+        background-color: rgba(0, 0, 0, 0.5);/*fondo oscuro que se activa al abrir un modal*/
+        border-radius: 5px;
+    }
+    .modal3::backdrop {
+        background-color: rgba(0, 0, 0, 0.5);/*fondo oscuro que se activa al abrir un modal*/
+        border-radius: 5px;
+    }
+    .modal4::backdrop {
+        background-color: rgba(0, 0, 0, 0.5);/*fondo oscuro que se activa al abrir un modal*/
+        border-radius: 5px;
+    }
+    .modal5::backdrop {
+        background-color: rgba(0, 0, 0, 0.5);/*fondo oscuro que se activa al abrir un modal*/
+        border-radius: 5px;
+    }
+    .modal{
+        background-color: #00000065;
+        border-radius: 10px;
+        height: 150px;
+        overflow-y: hidden;/*cartel que se abre al clikear acerca de*/
+        border: #00000000;
+    }
+    .modal button{
+        background-color: #33333371;
+        position: absolute;
+        width: 5%;
+        left: 90%;
+        top: 5%;
+    }
+    .modal button:hover{
+        background-color: rgb(129, 129, 129);/*cambia el color del boton al pasan el mouse*/
+    }
+
+    .modal2{
+        background-color: #00000065;
+        border-radius: 10px;
+        height: 150px;
+        width: 450px;
+        overflow-y: hidden;/*cartel que se abre al clikear acerca de*/
+        border: #00000000;
+    }
+    .modal2 button{
+        background-color: #33333371;
+        position: absolute;
+        width: 5%;
+        left: 85%;
+        top: 5%;
+    }
+    .modal2 button:hover{
+        background-color: rgb(129, 129, 129);
+    }
+
+
+    .modal3{
+        background-color: #0000004d;
+        width: auto;
+        height: auto;/*cartel que se abre al clikear acerca de*/
+        border: #00000000;
+    }
+    .modal3 button{
+        background-color: #33333371;
+        position: absolute;
+        width: 5%;
+        left: 90%;
+        top: 5%;
+    }
+    .modal3 button:hover{
+        background-color: rgb(129, 129, 129);
+    }
+
+
+    .modal4{
+        background-color: #0000004d;
+        width: auto;
+        height: 100%;
+        border: #00000000;
+    }
+    .modal4 button{
+        background-color: #33333371;
+        position: absolute;
+        width: 5%;
+        left: 90%;
+    }
+    .modal4 button:hover{
+        background-color: rgb(129, 129, 129);
+    }
+    .modal4 img{
+        position: absolute;
+        top: 0;
+        left: 20%;
+    }
+
+
+    .modal5{
+        background-color: #000000;
+        width: 56%;
+        height: 100%;
+        border: #00000000;
+    }
+    .modal5 button{
+        background-color: #33333371;
+        position: absolute;
+        width: 5%;
+        left: 90%;
+    }
+    .modal5 button:hover{
+        background-color: rgb(129, 129, 129);
+    }
+
+    /* Cambiar el color de fondo de la barra de desplazamiento */
+    ::-webkit-scrollbar {
+    background-color: #161616;
+    }
+  
+    /* Cambiar el color del control deslizante de la barra de desplazamiento */
+    ::-webkit-scrollbar-thumb {
+    background-color: #181818;
+    }
+  
+    /* Cambiar el color del fondo cuando se pasa el cursor sobre la barra de desplazamiento */
+    ::-webkit-scrollbar-thumb:hover {
+    background-color: #333233;
+    }
+
